@@ -5,7 +5,7 @@
   position: fixed;
   top: 200px;
   right: 15px;
-  z-index: 99;
+  z-index: 1999;
 }
 
 /* The switch - the box around the slider */
@@ -300,6 +300,14 @@ input:checked + .slider:before {
   background-color: #000;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
+}
+.login-form-wrap{
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  /* opacity: .9; */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .category-box ul li a {
