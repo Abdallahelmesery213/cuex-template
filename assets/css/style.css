@@ -6249,3 +6249,27 @@ article {
   background-color: #94be5d;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* start media query screen */
+@media only screen and (max-width: 600px) {
+  .header-wrap .header-bottom .navbar .navbar-nav .nav-item a{
+    width: 100%;
+  }
+  .header-wrap .header-bottom .navbar .navbar-nav .nav-item a.btn{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .hero-content a.btn{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .form-wrap .btn.style1, .about-wrap .btn.style1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+  }
+}
+/* end media query screen */
